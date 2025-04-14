@@ -27,36 +27,34 @@ export const projects = [
     title: "Expert-Curated Content",
     description:
       "Our notes are created and reviewed by subject matter experts with years of teaching experience.",
-    link: "https://stripe.com",
   },
   {
     title: "Mobile Friendly",
     description:
       "Access your notes anytime, anywhere with our responsive design that works perfectly on all devices.",
-    link: "https://netflix.com",
+
   },
   {
     title: "Progress Tracking",
     description:
       "Monitor your learning progress with our built-in analytics and personalized recommendations.",
-    link: "https://google.com",
+
   },
   {
     title: "Comprehensive Coverage",
     description:
       "From basic concepts to advanced topics, we've got all your learning needs covered.",
-    link: "https://meta.com",
+
   },
   {
     title: "Downloadable PDFs",
     description:
       "Download notes in PDF format for offline access and printing.",
-    link: "https://amazon.com",
+
   },
   {
     title: "Community Support",
     description:
       "Join our community of learners to discuss concepts, ask questions, and share knowledge.",
-    link: "https://microsoft.com",
   },
 ];
