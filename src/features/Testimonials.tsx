@@ -1,26 +1,31 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { InfiniteMovingCards } from "../components/ui/infinite-moving-cards";
 
 export function Testimonials() {
   return (
-    <div className="h-[40rem] flex flex-col antialiased bg-[#0a0a0a] dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center">
-      <h2 className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-600 font-extrabold text-5xl animate-pulse mt-10">
+    <div className="min-h-screen flex flex-col antialiased bg-[#0a0a0a] dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center px-4">
+      {/* Heading */}
+      <h2 className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-600 font-extrabold text-4xl sm:text-5xl animate-pulse mt-10 text-center">
         Testimonials
       </h2>
-      <h3 className="text-gray-300 font-semibold text-2xl mb-3 tracking-wide text-shadow-md">
+      <h3 className="text-gray-300 font-semibold text-xl sm:text-2xl mb-3 tracking-wide text-center">
         Here's what students say about us
       </h3>
-      <div className="h-[30rem] flex flex-col antialiased bg-[#0a0a0a] dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
+
+      {/* Cards */}
+      <div className="w-full max-w-6xl h-[30rem] flex flex-col items-center justify-center relative overflow-hidden px-2 sm:px-6">
         <InfiniteMovingCards
           items={testimonials}
           direction="right"
           speed="slow"
         />
       </div>
-      <div className="text-center mt-3 mb-3">
-        <p className="text-gray-300 text-lg font-medium">
+
+      {/* Footer */}
+      <div className="text-center mt-4 mb-6 px-4">
+        <p className="text-gray-300 text-base sm:text-lg font-medium leading-relaxed">
           Feel free to reach out on Instagram <span className="font-bold">_riteshbiradar_</span> or LinkedIn <span className="font-bold">Ritesh Biradar</span> for providing a review or if you have notes we can add to the website.
         </p>
       </div>
@@ -40,7 +45,8 @@ const testimonials = [
     name: "Rohit Kumar",
   },
   {
-    quote: "I had no idea where to find good study material. A friend recommended this website, and it helped me a lot. The notes are clear, and I feel more prepared for my exams now.",
+    quote:
+      "I had no idea where to find good study material. A friend recommended this website, and it helped me a lot. The notes are clear, and I feel more prepared for my exams now.",
     name: "Anjali Gupta",
   },
   {

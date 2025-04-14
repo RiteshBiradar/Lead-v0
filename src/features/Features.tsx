@@ -4,7 +4,7 @@ import { HoverEffect } from "../components/ui/card-hover-effect";
 
 export function Features() {
   return (
-    <div style={{ backgroundColor: "#0a0a0a" }} className="pt-10 ">
+    <div style={{ backgroundColor: "#0a0a0a" }} className="pt-10 pb-24.5">
     <h3 className="text-white text-4xl font-bold mb-4 text-center tracking-tight drop-shadow-md pt-5">
   Why Choose Lead Notes?
 </h3>
@@ -13,7 +13,6 @@ export function Features() {
   className="text-center text-gray-300 text-xl"
   
 />
-
 
 
     <div className="max-w-7xl mx-auto px-8 ">

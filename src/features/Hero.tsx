@@ -6,7 +6,7 @@ import Link from "next/link";
 
 function Hero() {
   return (
-    <div className="min-h-screen w-full pt-[72px] bg-black/[0.96] relative overflow-hidden">
+    <div className="min-h-screen w-full pt-[132px] bg-black/[0.96] relative overflow-hidden">
       {/* Spotlight Component */}
       <Spotlight />
 

@@ -63,7 +63,7 @@ export default function CardsRow() {
   ];
 
   return (
-    <div className="bg-[#0a0a0a]">
+    <div className="bg-[#0a0a0a] pt-20 pb-30">
       <h1 className="text-white font-bold text-3xl text-center p-7">
         Get your notes here!
       </h1>
