@@ -41,7 +41,7 @@ function Navbar() {
 
         {/* CTA Button (hidden on small screens) */}
         <Link
-          href="/get-started"
+          href="/"
           className="hidden md:inline bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-full text-sm transition"
         >
           Get Started
