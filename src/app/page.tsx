@@ -8,12 +8,12 @@ import  {Testimonials}  from "@/features/Testimonials";
 
 export default function App() {
   return (
-    <>
+    <div className="overflow-x-hidden">
     <Navbar></Navbar>
     <Hero></Hero>
     <Features></Features>
     <Notes></Notes>
     <Testimonials></Testimonials>
-    </>
+    </div>
 );
 }
