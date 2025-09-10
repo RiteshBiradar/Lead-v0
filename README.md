@@ -18,7 +18,6 @@
 git clone https://github.com/yourusername/Lead-v0.git
 cd lead-app
 npm install
-npm run dev  # or npm start if using CRA
 ```
 
 ---
