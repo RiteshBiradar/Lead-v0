@@ -5,12 +5,10 @@
 ---
 
 ## 🛠 Tech Stack
-
-- **React.js**
+- **NextJs**
 - **JavaScript**
 - **Accernity UI** – Custom UI component library
-- **Vite / CRA** (if applicable – update as needed)
-- **TailwindCSS** (if used)
+- **Vite**
 
 ---
 
